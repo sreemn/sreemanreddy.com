@@ -21,8 +21,8 @@ const intro: IntroPart[][] = [
     "I care about how things look, how they feel, and who they bring together. Most of my time goes into communities: the people in them, and the tools that help them thrive.",
   ],
   [
-    "I'm a Community Solutions Manager at ",
-    { text: "Holodot", href: "https://holodot.app" },
+    "I'm a Senior iOS Engineer at ",
+    { text: "Amma Hospitals", href: "https://ammahospitals.in" },
     ".",
   ],
   [
