@@ -15,7 +15,14 @@ export const metadata: Metadata = {
     title: site.name,
     description: site.bio,
     siteName: new URL(site.url).host,
-    images: [site.avatar.light],
+    images: [
+      {
+        url: site.avatar.light,
+        width: 1024,
+        height: 1024,
+        alt: site.name,
+      },
+    ],
   },
   twitter: {
     card: "summary",

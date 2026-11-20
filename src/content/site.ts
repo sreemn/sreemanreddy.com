@@ -33,7 +33,7 @@ const intro: IntroPart[][] = [
 ]
 
 export const site = {
-  url: "https://sreemanreddy.com",
+  url: process.env.NEXT_PUBLIC_SITE_URL || "https://sreeman.vylee.xyz",
   name: "Sreeman Reddy",
   handle: "@sreemanreddy",
   email: "contact@sreemanreddy.com",
